@@ -1,0 +1,20 @@
+lastAccountName: bchizzle
+timestamps:
+  login: 1514803941580
+  logout: 1514804175445
+ipAddress: 113.22.130.134
+logoutlocation:
+  world: world
+  x: 0.13720711489722665
+  y: 67.0
+  z: 1.489046076148043
+  yaw: -169.71875
+  pitch: 13.807146
+lastlocation:
+  world: Shire
+  x: -15.699999988079071
+  y: 72.0
+  z: -7.699999988079071
+  yaw: 0.0
+  pitch: 0.0
+money: '20.0'

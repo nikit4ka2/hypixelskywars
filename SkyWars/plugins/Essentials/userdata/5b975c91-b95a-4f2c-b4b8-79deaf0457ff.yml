@@ -1,0 +1,22 @@
+lastAccountName: ZerosGamersYT
+timestamps:
+  login: 1514803926938
+  logout: 1514804175445
+  lastteleport: 1514804027639
+ipAddress: 113.22.130.134
+money: '18164.0'
+lastlocation:
+  world: Shire
+  x: -0.6376492725158591
+  y: 73.0
+  z: 23.699999988079075
+  yaw: 55.1481
+  pitch: 8.282593
+afk: false
+logoutlocation:
+  world: world
+  x: 0.9926291896974465
+  y: 67.0
+  z: -2.3996581560211108
+  yaw: 311.97003
+  pitch: -4.6080527
