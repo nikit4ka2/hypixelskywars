@@ -1,0 +1,90 @@
+preferences:
+ schematic: 'plugins\WorldEdit/schematics/sw-prelobby.schematic'
+ bungee-mode: false
+ #SW lobby from bungee to use turn on bungee-mode and lobby-mode
+ lobby-mode: false
+ #Lobby server name in bungeecord
+ sw-lobby-bungee: 'lobby'
+ #Rooms list for bungee add using format 'IP : PORT : BUNGEE_SERVER_NAME'
+ rooms: []
+ join-teleport: true
+ on-join-items: true
+ on-world-change-items: true
+ worlds-lobby:
+ - 'world'
+ database:
+  mysql: false
+  host: localhost
+  port: 3306
+  user: root
+  password: ''
+  database: Minecraft
+ coins:
+  win: 10
+  kill: 2
+ countdown:
+  start: 45
+  full: 10
+  game: 780
+  refills: [480, 300]
+ votes:
+  double_health:
+   solo: 3
+   team: 6
+   mega: 9
+ npc-skin:
+  solo:
+   normal: 'tapl'
+   insane: 'tigerr_vn'
+  team:
+   normal: 'HSGamer'
+   insane: 'bedwars'
+  mega: 'TNT'
+hot_bar:
+ compass:
+  slot: 0
+  receive: true
+  material: 'COMPASS'
+  display_name: '&aGame Menu &7(Right Click)'
+ skull_profile:
+  slot: 1
+  receive: true
+  display_name: '&aMy Profile &7(Right Click)'
+ shop:
+  slot: 2
+  receive: true
+  material: 'EMERALD'
+  display_name: '&aShop &7(Right Click)'
+ lobbies:
+  slot: 8
+  receive: true
+  material: 'NETHER_STAR'
+  display_name: '&aLobbies &7(Right Click)'
+ players:
+  slot: 7
+  receive: true
+  display_name_on: '&fPlayers: &aVisible &7(Right Click)'
+  display_name_off: '&fPlayers: &cHidden &7(Right Click)'
+hot_bar-wait:
+ kits:
+  slot: 0
+  item: 'BOW : 1 : name=&aKit Selector &7(Right Click)'
+ leave:
+  slot: 8
+  item: 'BED : 1 : name=&c&lReturn to Lobby &7(Right Click)'
+ insane:
+  slot: 1
+  item: 'BLAZE_POWDER : 1 : name=&6Insane Options &7(Right Click)'
+hot_bar-spec:
+ compass:
+  slot: 0 
+  item: 'COMPASS : 1 : name=&a&lTeleporter &7(Right Click)'
+ settings:
+  slot: 4
+  item: 'REDSTONE_COMPARATOR : 1 : name=&b&lSpectator Options &7(Right Click)'
+ again:
+  slot: 7
+  item: 'PAPER : 1 : name=&b&lPlay Again &7(Right Click)'
+ leave:
+  slot: 8
+  item: 'BED : 1 : name=&c&lReturn to Lobby &7(Right Click)'

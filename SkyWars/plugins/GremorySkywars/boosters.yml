@@ -1,0 +1,9 @@
+boosters:
+ 1:
+  time: 1
+  type: b1_5
+  timeType: HOURS
+ 2:
+  time: 1
+  type: b2_0
+  timeType: HOURS

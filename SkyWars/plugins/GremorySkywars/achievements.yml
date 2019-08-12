@@ -1,0 +1,212 @@
+#All types: KILLS,WINS All modes: (SOLO,TEAM,MEGA)
+achievements:
+ sWinnerV:
+  type: WINS
+  mode: SOLO
+  points: 25
+  quantity: 1200
+  title: 'Winner Solo V'
+  description: 'Win 1,200 games in Solo Mode'
+ mKillerV:
+  type: KILLS
+  mode: MEGA
+  points: 25
+  quantity: 25000
+  title: 'Killer Mega V'
+  description: 'Kill 25,000 players in Mega Mode'
+ tWinnerV:
+  type: WINS
+  mode: TEAM
+  points: 25
+  quantity: 1200
+  title: 'Winner Team V'
+  description: 'Win 1,200 games in Team Mode'
+ tKillerV:
+  type: KILLS
+  mode: TEAM
+  points: 25
+  quantity: 10000
+  title: 'Killer Team V'
+  description: 'Kill 10,000 players in Team Mode'
+ sWinnerIV:
+  type: WINS
+  mode: SOLO
+  points: 20
+  quantity: 500
+  title: 'Winner Solo IV'
+  description: 'Win 500 games in Solo Mode'
+ mKillerIV:
+  type: KILLS
+  mode: MEGA
+  points: 20
+  quantity: 5000
+  title: 'Killer Mega IV'
+  description: 'Kill 5,000 players in Mega Mode'
+ tWinnerIV:
+  type: WINS
+  mode: TEAM
+  points: 20
+  quantity: 500
+  title: 'Winner Team IV'
+  description: 'Win 500 games in Team Mode'
+ tKillerIV:
+  type: KILLS
+  mode: TEAM
+  points: 20
+  quantity: 5000
+  title: 'Killer Team IV'
+  description: 'Kill 5,000 players in Team Mode'
+ sWinnerIII:
+  type: WINS
+  mode: SOLO
+  points: 15
+  quantity: 100
+  title: 'Winner Solo III'
+  description: 'Win 100 games in Solo Mode'
+ mKillerIII:
+  type: KILLS
+  mode: MEGA
+  points: 15
+  quantity: 1000
+  title: 'Killer Mega III'
+  description: 'Kill 1,000 players in Mega Mode'
+ tWinnerIII:
+  type: WINS
+  mode: TEAM
+  points: 15
+  quantity: 100
+  title: 'Winner Team III'
+  description: 'Win 100 games in Team Mode'
+ tKillerIII:
+  type: KILLS
+  mode: TEAM
+  points: 15
+  quantity: 1000
+  title: 'Killer Team III'
+  description: 'Kill 1,000 players in Team Mode'
+ sWinnerII:
+  type: WINS
+  mode: SOLO
+  points: 10
+  quantity: 50
+  title: 'Winner Solo II'
+  description: 'Win 50 games in Solo Mode'
+ mKillerII:
+  type: KILLS
+  mode: MEGA
+  points: 10
+  quantity: 250
+  title: 'Killer Mega II'
+  description: 'Kill 250 players in Mega Mode'
+ tWinnerII:
+  type: WINS
+  mode: TEAM
+  points: 10
+  quantity: 50
+  title: 'Winner Team II'
+  description: 'Win 50 games in Team Mode'
+ tKillerII:
+  type: KILLS
+  mode: TEAM
+  points: 10
+  quantity: 250
+  title: 'Killer Team II'
+  description: 'Kill 250 players in Team Mode'
+ sWinnerI:
+  type: WINS
+  mode: SOLO
+  points: 5
+  quantity: 10
+  title: 'Winner Solo I'
+  description: 'Win 10 games in Solo Mode'
+ mKillerI:
+  type: KILLS
+  mode: MEGA
+  points: 5
+  quantity: 50
+  title: 'Killer Mega I'
+  description: 'Kill 50 players in Mega Mode'
+ tWinnerI:
+  type: WINS
+  mode: TEAM
+  points: 5
+  quantity: 10
+  title: 'Winner Team I'
+  description: 'Win 10 games in Team Mode'
+ tKillerI:
+  type: KILLS
+  mode: TEAM
+  points: 5
+  quantity: 50
+  title: 'Killer Team I'
+  description: 'Kill 50 players in Team Mode'
+ sKillerV:
+  type: KILLS
+  mode: SOLO
+  points: 25
+  quantity: 10000
+  title: 'Killer Solo V'
+  description: 'Kill 10,000 players in Solo Mode'
+ mWinnerV:
+  type: WINS
+  mode: MEGA
+  points: 25
+  quantity: 1000
+  title: 'Winner Mega V'
+  description: 'Win 1,000 games in Mega Mode'
+ sKillerIV:
+  type: KILLS
+  mode: SOLO
+  points: 20
+  quantity: 5000
+  title: 'Killer Solo IV'
+  description: 'Kill 5,000 players in Solo Mode'
+ mWinnerIV:
+  type: WINS
+  mode: MEGA
+  points: 20
+  quantity: 500
+  title: 'Winner Mega IV'
+  description: 'Win 500 games in Mega Mode'
+ sKillerIII:
+  type: KILLS
+  mode: SOLO
+  points: 15
+  quantity: 1000
+  title: 'Killer Solo III'
+  description: 'Kill 1,000 players in Solo Mode'
+ mWinnerIII:
+  type: WINS
+  mode: MEGA
+  points: 15
+  quantity: 100
+  title: 'Winner Mega III'
+  description: 'Win 100 games in Mega Mode'
+ sKillerII:
+  type: KILLS
+  mode: SOLO
+  points: 10
+  quantity: 250
+  title: 'Killer Solo II'
+  description: 'Kill 250 players in Solo Mode'
+ mWinnerII:
+  type: WINS
+  mode: MEGA
+  points: 10
+  quantity: 50
+  title: 'Winner Mega II'
+  description: 'Win 50 games in Mega Mode'
+ sKillerI:
+  type: KILLS
+  mode: SOLO
+  points: 5
+  quantity: 50
+  title: 'Killer Solo I'
+  description: 'Kill 50 players in Solo Mode'
+ mWinnerI:
+  type: WINS
+  mode: MEGA
+  points: 5
+  quantity: 10
+  title: 'Winner Mega I'
+  description: 'Win 10 games in Mega Mode'

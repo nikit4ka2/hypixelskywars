@@ -1,0 +1,40 @@
+# %pDName% = Player Display Name
+# %pName% = Player Name
+months:
+ 1: 'January'
+ 2: 'February'
+ 3: 'March'
+ 4: 'April'
+ 5: 'May'
+ 6: 'June'
+ 7: 'July'
+ 8: 'August'
+ 9: 'September'
+ 10: 'October'
+ 11: 'November'
+ 12: 'December'
+claim:
+ perm: '&aClick here to claim!'
+ no-perm: '&cClick here to claim!'
+ lore: '&7You already picked up this\n&7delivery, come back later!\n \n%next%'
+next: '&7Next delivery: %time%'
+rewards:
+ daily:
+  days: 1
+  type: 'free'
+  slot: 21
+  perm: 'none'
+  commands:
+  - 'sw add coins %pName% 2000'
+  - 'tellraw %pName% ["",{"text":"You won ","color":"green"},{"text":"2,000 ","color":"aqua"},{"text":"coins.","color":"green"}]'
+  icon: '%material% : 1 : name=%color%Daily Reward : lore=&7Your free daily &b2,000\n&7Coins for &bSkywars.\n \n%final%'
+ vip:
+  days: 7
+  type: 'permission'
+  slot: 22
+  perm: 'delivery.vip'
+  commands:
+  - 'sw add coins %pName% 10000'
+  - 'tellraw %pName% ["",{"text":"You won ","color":"green"},{"text":"10,000 ","color":"aqua"},{"text":"coins.","color":"green"}]'
+  icon: '%material% : 1 : name=%color%Coins Delivery : lore=&7Your free monthly &b10,000\n&7Coins for %month% have\n&7arrived!\n \n&7Requires &eVIP\n \n%final%'
+  

@@ -1,0 +1,50 @@
+#Warning: not delete the kit 'Default' is the default kit to this plugin!
+kits:
+ default:
+  name: 'Bộ JUMP TNT Free'
+  icon: 'TNT : 1 : name=&aBộ JUMP TNT Free: lore=&7Làm Theo Phong Trào :)).'
+  price: 0
+  mode: SOLO
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: 311
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'WATER_BUCKET : 1'
+  - 'TNT : 16'
+  - 'REDSTONE_BLOCK : 4'
+  effects: []
+ tdefault:
+  name: 'Default'
+  icon: 'WOOD_PICKAXE : 1 : name=&aDefault : lore=&7Basic kit with tools.'
+  price: 0
+  mode: TEAM
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'WOOD_PICKAXE : 1'
+  - 'WOOD_AXE : 1'
+  - 'WOOD_SPADE : 1'
+  effects: []
+ mdefault:
+  name: 'Default'
+  icon: 'WOOD_PICKAXE : 1 : name=&aDefault : lore=&7Basic kit with tools.'
+  price: 0
+  mode: MEGA
+  rarity: COMMON
+  found: ALL
+  helmet: AIR
+  chestplate: AIR
+  leggings: AIR
+  boots: AIR
+  items:
+  - 'WOOD_PICKAXE : 1'
+  - 'WOOD_AXE : 1'
+  - 'WOOD_SPADE : 1'
+  effects: []

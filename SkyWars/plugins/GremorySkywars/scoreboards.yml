@@ -1,0 +1,70 @@
+game-title: '&e&lSKYWARS'
+scoreboard-lobby:
+ enabled: true
+ title: '&e&lSKYWARS'
+ lines:
+ - ''
+ - 'Solo Kills: &a%sKills%'
+ - 'Solo Wins: &a%sWins%'
+ - 'Team Kills: &a%tKills%'
+ - 'Team Wins: &a%tWins%'
+ - 'Mega Kills: &a%mKills%'
+ - 'Mega Wins: &a%mWins%'
+ - ''
+ - 'Coins: &e%coins%'
+ - 'Souls: &b%souls%'
+ - ''
+ - '&ewww.hypixel.net'
+scoreboard-waiting:
+  enabled: true
+  lines:
+  - ''
+  - 'Players: &a%players%/%maxPlayers%'
+  - ''
+  - 'Waiting...'
+  - ''
+  - 'Server: &a%serverName%'
+  - ''
+  - '&ewww.hypixel.net'
+scoreboard-starting:
+  enabled: true
+  lines:
+  - ''
+  - 'Players: &a%players%/%maxPlayers%'
+  - ''
+  - 'Starting in &a%time%'
+  - ''
+  - 'Server: &a%serverName%'
+  - ''
+  - '&ewww.hypixel.net'
+scoreboard-game:
+  enabled: true
+  lines_solo:
+  - '&7%mode% %date%'
+  - ''
+  - 'Next Event:'
+  - '&a%event%'
+  - ''
+  - 'Players left: &a%playersLeft%'
+  - ''
+  - 'Kills: &a%kills%'
+  - ''
+  - 'Map: &a%mapName%'
+  - 'Mode: %type%'
+  - ''
+  - '&ewww.hypixel.net'
+  lines_team:
+  - '&7%mode% %date%'
+  - ''
+  - 'Next Event:'
+  - '&a%event%'
+  - ''
+  - 'Players left: &a%playersLeft%'
+  - 'Teams left: &a%teamsLeft%'
+  - ''
+  - 'Kills: &a%kills%'
+  - ''
+  - 'Map: &a%mapName%'
+  - 'Mode: %type%'
+  - ''
+  - '&ewww.hypixel.net'

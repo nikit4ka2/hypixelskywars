@@ -1,0 +1,25 @@
+ranks:
+ Master:
+  perm: '*'
+  tag: '&c[MASTER] '
+  display: '&cMASTER'
+ MVP+:
+  perm: 'tag.mvp+'
+  tag: '&b[MVP&c+&b] '
+  display: '&bMVP&c+'
+ MVP:
+  perm: 'tag.mvp'
+  tag: '&b[MVP] '
+  display: '&bMVP'
+ VIP+:
+  perm: 'tag.vip+'
+  tag: '&a[VIP&6+&a] '
+  display: '&aVIP&6+'
+ VIP:
+  perm: 'tag.vip'
+  tag: '&a[VIP] '
+  display: '&aVIP'
+ Default:
+  perm: 'none'
+  tag: '&7'
+  display: '&7Default'

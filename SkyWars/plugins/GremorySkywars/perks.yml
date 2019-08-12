@@ -1,0 +1,86 @@
+#List of perks id:
+# 1: No-fall (Serious? REALLY?)
+# 2: Arrow Recovery (10% chance to recovery arrow on shot bow)
+# 3: Explosive Arrow (shot explosive arrow)
+perks:
+ sNofall:
+  name: 'NoFall'
+  icon: 'LEATHER_BOOTS : 1 : name=&aNoFall : lore=&7Don''t take fall damage.'
+  price: 0
+  mode: SOLO
+  rarity: COMMON
+  found: SOUL_WELL
+  abilities_id:
+  - 1
+ sRecoveryarrow:
+  name: 'Arrow Recovery'
+  icon: 'ARROW : 1 : name=&aArrow Recovery : lore=&710% chance to recovery\n&7your arrow on shot bow.'
+  price: 0
+  mode: SOLO
+  rarity: RARE
+  found: SOUL_WELL
+  abilities_id:
+  - 2
+ sExplosivearrow:
+  name: 'Explosive Arrow'
+  icon: 'TNT : 1 : name=&aExplosive Arrow : lore=&7Shot explosive arrow''s'
+  price: 0
+  mode: SOLO
+  rarity: LEGENDARY
+  found: RANK
+  abilities_id:
+  - 3
+ tNofall:
+  name: 'NoFall'
+  icon: 'LEATHER_BOOTS : 1 : name=&aNoFall : lore=&7Don''t take fall damage.'
+  price: 0
+  mode: TEAM
+  rarity: COMMON
+  found: SOUL_WELL
+  abilities_id:
+  - 1
+ tRecoveryarrow:
+  name: 'Arrow Recovery'
+  icon: 'ARROW : 1 : name=&aArrow Recovery : lore=&710% chance to recovery\n&7your arrow on shot bow.'
+  price: 0
+  mode: TEAM
+  rarity: RARE
+  found: SOUL_WELL
+  abilities_id:
+  - 2
+ tExplosivearrow:
+  name: 'Explosive Arrow'
+  icon: 'TNT : 1 : name=&aExplosive Arrow : lore=&7Shot explosive arrow''s'
+  price: 0
+  mode: TEAM
+  rarity: LEGENDARY
+  found: RANK
+  abilities_id:
+  - 3
+ mNofall:
+  name: 'NoFall'
+  icon: 'LEATHER_BOOTS : 1 : name=&aNoFall : lore=&7Don''t take fall damage.'
+  price: 0
+  mode: MEGA
+  rarity: COMMON
+  found: SOUL_WELL
+  abilities_id:
+  - 1
+ mRecoveryarrow:
+  name: 'Arrow Recovery'
+  icon: 'ARROW : 1 : name=&aArrow Recovery : lore=&710% chance to recovery\n&7your arrow on shot bow.'
+  price: 0
+  mode: MEGA
+  rarity: RARE
+  found: SOUL_WELL
+  abilities_id:
+  - 2
+ mExplosivearrow:
+  name: 'Explosive Arrow'
+  icon: 'TNT : 1 : name=&aExplosive Arrow : lore=&7Shot explosive arrow''s'
+  price: 0
+  mode: MEGA
+  rarity: LEGENDARY
+  found: RANK
+  abilities_id:
+  - 3

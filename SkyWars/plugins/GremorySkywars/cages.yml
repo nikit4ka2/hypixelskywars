@@ -1,0 +1,13 @@
+#Warning: not delete the 'Normal' is the default cage of this plugin!
+cages:
+ normal:
+  name: 'Normal'
+  icon: 'GLASS : 1 : name=&aNormal'
+  rarity: COMMON
+  found: ALL
+  price: 0
+  roof: GLASS
+  floor: GLASS
+  middle: GLASS
+  lower-middle: GLASS
+  higher-middle: GLASS

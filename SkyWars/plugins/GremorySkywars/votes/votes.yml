@@ -1,0 +1,24 @@
+shire:
+  rate: 0.3
+  voted: 13
+  votes:
+  - e23a1ebf-7e14-3e57-81e7-e7b63c605d91
+  - ac2ae1df-51f7-32ea-b9c9-d65fab12933d
+  - 66c56cbb-ec96-37fd-8887-f910859b7136
+  - 4e64a9db-20fe-36fc-ab77-72c85a4958df
+Fossil:
+  rate: 100
+  voted: 0
+  votes: []
+Shire:
+  rate: 100
+  voted: 0
+  votes: []
+Overfall:
+  rate: 100
+  voted: 0
+  votes: []
+Railroad:
+  rate: 100
+  voted: 0
+  votes: []

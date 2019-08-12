@@ -1,0 +1,150 @@
+#==================================================================================================================================================
+#
+# WARNING:
+#  - To remove an item from menu use slot: -1
+#
+#==================================================================================================================================================
+menus:
+ back: 'ARROW : 1 : name=&aBack'
+ page: 'ARROW : 1 : name=&aPage %page%'
+ 
+ ###################################################################################################################################################
+ # Profile Menu
+ ###################################################################################################################################################
+ 
+ profile:
+  preferences:
+   slot: 32
+   item: 'REDSTONE_COMPARATOR : 1 : name=&aSettings : lore=&7Allows you to edit and control\n&7various personal settings.\n \n&eClick to edit your settings!'
+  informations:
+   slot: 30
+   item: '3 : owner=%player% : name=&aCharacter Information : lore=&7Rank: %rank%\n&7Level: &6%level%\n&7Experience until next level: &6%untilxp%\n&7Achievement Points: &6%points%'
+  statistics:
+   slot: 17
+   item: 'PAPER : 1 : name=&aStats Viewer : lore=&7View your status in SkyWars\n&7or total stats.\n \n&bRanked Player &7can use\n&b/stats (username) &7to view\n&7other player''s stats.\n \n&eClick to view your stats!'
+  delievery:
+   slot: 11
+   item: 'STORAGE_MINECART : 1 : name=&aDelievery : lore=&7Receive diary and weekly\n&7rewards of delievery in the server.\n \n&eClick to view your delivery''s!'
+  achievements:
+   slot: 9
+   item: 'DIAMOND : 1 : name=&aAchievements : lore=&7View your progress in\n&7Achievements and rack up points.\n \n&eClick to view your achievements!'
+  booster: 
+   slot: 15
+   item: 'POTION : 1 : name=&aCoin Boosters : lore=&7Activate your personal and network\n&7boosters for extra coins.\n \n&eClick to activate booster''s!'
+  leveling: 
+   slot: 13
+   item: 'BREWING_STAND_ITEM : 1 : name=&aSkyWars Leveling : lore=&7Playing games\n&7will reward you with &3Skywars Experience&7,\n&7wich is required to level up and\n&7acquire new perks and rewards!\n \n&3SkyWars Level &a%level% %progress_bar% &3%progress%\n \n&7Experience until next level: &3%untilxp%\n \n&eClick to see your rewards!'
+  
+ ###################################################################################################################################################
+ # Settings Menu
+ ###################################################################################################################################################
+  
+ preferences:
+  on_item: 'INK_SACK:10 : 1 : name=&aEnabled : lore=&7Click to disable!'
+  off_item: 'INK_SACK:8 : 1 : name=&cDisabled : lore=&7Click to enable!'
+  players_view: 'EYE_OF_ENDER : 1 : name=&aView Players : lore=&7Toggles ability to see\n&7players.'
+  tell: 'BOOK : 1 : name=&aPrivate Messages : lore=&7Toggles ability to receive\n&7private messages.'
+  
+ ###################################################################################################################################################
+ # Coin Booster Menu
+ ###################################################################################################################################################
+ 
+ booster:
+  personal_booster: 
+   slot: 11
+   item: 'POTION : 1 : name=&aPrivate Boosters : lore=&7Gives a bonus multiplier for\n&7a short amount of time.\n \n&eClick to see avaible personal boosters!'
+  network_booster: 
+   slot: 15
+   item: 'EMERALD : 1 : name=&cNetwork Boosters : lore=&7Gives &bEVERYONE &7a bonus coin multiplier in\n&7a SkyWars game.\n \n&eClick to see your avaible Network Boosters!'
+  booster_item: 'POTION : 1 : name=&6%multiplier% &7Coin booster - &6%time% %timeType%'
+  
+ ###################################################################################################################################################
+ # Stats menu
+ ###################################################################################################################################################
+ 
+ statistics:
+  total: 'BOOK : 1 : name=&aTotal Stats : lore=&fKills: &7%kAll%\n&fWins: &7%wAll%\n \n&fCoins: &7%coins%'
+  player: 'EYE_OF_ENDER : 1 : name=&aSkyWars Stats : lore=&fWins: &7%wAll%\n&fSolo Wins: &7%wSolo%\n&fTeam Wins: &7%wTeam%\n&fMega Wins: &7%wMega%\n \n&fKills: &7%kAll%\n&fSolo Kills: &7%kSolo%\n&fTeam Kills: &7%kTeam%\n&fMega Kills: &7%kMega%\n \n&fSouls: &7%souls%\n&fCoins: &7%coins%'
+  
+ ###################################################################################################################################################
+ # Achievements Menu
+ ###################################################################################################################################################
+ 
+ achievements:
+  points: 'DIAMOND : 1 : name=&aAchievements Points: &6%points%'
+  skywars: 'EYE_OF_ENDER : 1 : name=&aSkyWars Achievements : lore=&eView SkyWars Achievements!'
+  locked: 'COAL_BLOCK : 1 : name=&c%title% : lore=&e%description%\n&7&o%points% Achievement Points\n \n&eClick to see your progress!'
+  unlocked: 'DIAMOND_BLOCK : 1 : name=&a%title% : lore=&e%description%\n&7&o%points% Achievement Points\n \n&eClick to see your progress!'
+  
+ ###################################################################################################################################################
+ # Leveling Menu
+ ###################################################################################################################################################
+  
+ leveling:
+  desc:
+   coins: '&8&oCoins can be used in shop'
+   booster: '&8&oCoins booster''s can be used\n&8&oto activate a multipler of\n&8&ocoin for a short amount of time.'
+  reward:
+   coins: '&8+&6%coins% &7Coins'
+   booster: '&8+&6%multiplier% &7Coin Booster - &6%time% %timeType%'
+  level_reward_on: 'STORAGE_MINECART : 1 : name=&aSkyWars Level Reward %level% : lore= \n%reward%\n \n&8%rewarddesc%\n \n&eClick to claim the reward!'
+  level_reward_off: 'MINECART : 1 : name=&cSkyWars Level Reward %level% : lore= \n%reward%\n \n&8%rewarddesc%\n \n&eYou have already claimed this reward!'
+  level_reward_level_off: 'MINECART : 1 : name=&cSkyWars Level Reward %level% : lore= \n%reward%\n \n&8%rewarddesc%\n \n&cYou can''t claim this yet!'
+ 
+ ###################################################################################################################################################
+ # Menu de Shop!
+ ###################################################################################################################################################
+  
+ shop:
+  kits_solo:
+   slot: 10
+   item: 'STONE_SWORD : 1 : name=&aSolo Kits : lore=&7Selection of unique kits\n&7for Solo Mode.\n \n&eClick to browse!'
+  kits_team:
+   slot: 13
+   item: 'IRON_SWORD : 1 : name=&aTeam Kits : lore=&7Selection of unique kits\n&7for Team Mode.\n \n&eClick to browse!'
+  kits_mega:
+   slot: 16
+   item: 'DIAMOND_SWORD : 1 : name=&aMega Kits : lore=&7Selection of unique kits\n&7for Mega Mode.\n \n&eClick to browse!'
+  perks_solo:
+   slot: 19
+   item: 'BREWING_STAND_ITEM : 1 : name=&aSolo Perks : lore=&7Selection of unique perks\n&7for Solo Mode.\n \n&eClick to browse!'
+  perks_team:
+   slot: 22
+   item: 'CAULDRON_ITEM : 1 : name=&aTeam Perks : lore=&7Selection of unique perk\n&7for Team Mode.\n \n&eClick to browse!'
+  perks_mega:
+   slot: 25
+   item: 'ENCHANTMENT_TABLE : 1 : name=&aMega Perks : lore=&7Selection of unique perks\n&7for Mega Mode.\n \n&eClick to browse!'
+  cosmetics:
+   slot: 40
+   item: 'SLIME_BALL : 1 : name=&aSkyWars Cosmetics : lore=&7Unlock and equip unique\n&7cosmetics such as\n&7Cages, perks and more.\n \n&eClick to browse!'
+  coins: 'EMERALD : 1 : name=&7Coins: &6%coins% : lore=&6http://store.hypixel.net'
+  
+ ###################################################################################################################################################
+ # Cosmetics Menu
+ ###################################################################################################################################################
+  
+ cosmetics:
+  cages:
+   slot: 13
+   item: 'STAINED_GLASS:0 : 1 : name=&aCustom Cages : lore=&7Change the color of your\n&7spawning cell.\n \n&7Currently Selected:\n&a%cage%\n \n&eClick to view!'
+  perks:
+   slot: 11
+   item: 'BREWING_STAND_ITEM : 1 : name=&aPerks : lore=&7Equip uniques abilities\n&7for use in SkyWars game''s.\n \n&7Currently Selecteds:\n&a%sPerk% &lSOLO\n&a%tPerk% &lTEAM\n&a%mPerk% &lMEGA\n \n&eClick to view!'
+   
+ ###################################################################################################################################################
+ # Insane Menu
+ ###################################################################################################################################################
+ 
+ insane:
+  votes:
+   slot: 10
+   item: 'SIGN : 1 : name=&aVotes : lore=&7Vote for arena options as\n&7Double Health.\n \n&eClick to vote!'
+   
+ ###################################################################################################################################################
+ # Votes Menu
+ ###################################################################################################################################################
+ 
+ votes:
+  double_health:
+   slot: 10
+   item: 'REDSTONE_BLOCK : 1 : name=&aDouble Health : lore=&7All players will have double\n&7health.\n \n&eClick to vote!'
