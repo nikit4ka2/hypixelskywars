@@ -1,0 +1,42 @@
+##############################################################################################################
+# +--------------------------------------------------------------------------------------------------------+ #
+# | __          __  _______ _____ _    _ _____   ____   _____   _____  ______ _____   ____  _____ _______  | #
+# | \ \        / /\|__   __/ ____| |  | |  __ \ / __ \ / ____| |  __ \|  ____|  __ \ / __ \|  __ \__   __| | #
+# |  \ \  /\  / /  \  | | | |    | |__| | |  | | |  | | |  __  | |__) | |__  | |__) | |  | | |__) | | |    | #
+# |   \ \/  \/ / /\ \ | | | |    |  __  | |  | | |  | | | |_ | |  _  /|  __| |  ___/| |  | |  _  /  | |    | #
+# |    \  /\  / ____ \| | | |____| |  | | |__| | |__| | |__| | | | \ \| |____| |    | |__| | | \ \  | |    | #
+# |     \/  \/_/    \_\_|  \_____|_|  |_|_____/ \____/ \_____| |_|  \_\______|_|     \____/|_|  \_\ |_|    | #
+# |                                                                                                        | #
+# +--------------------------------------------------------------------------------------------------------+ #
+##############################################################################################################
+
+# Prefix :D
+prefix: "&f[WATCHDOG] "
+
+# Other messages :P
+unknownHacks: "&cI don't recognize those hacks! Maybe try: &eFly, KillAura, AutoClicker, Speed, AntiKnockback, Reach, Dolphin\n&c&lIf the type of hack isn't listed, please open a report at https://hypixel.net/report"
+correctUsage: "&cUse: /watchdogreport (username) (type of hacks)"
+playerNotFound: "&cI couldn't find anyone named &e%player%&c. Please check the spelling!"
+thanksForReporting: "&c&lA player has been removed from your game for hacking or abuse."
+hackerGotCaught: "&c%player% &bhas been caught and punished. Thanks for your report!"
+preventSelfReporting: "&cYou can't report yourself!"
+playerLoggedOut1: "&cYour report against &e%player%&c has been closed, but I'll keep watching them!"
+playerLoggedOut2: "&c&lThe player logged out before we could finish analyzing them! Be sure to open a report at our website."
+thankPlayerForReport: "&aThanks for your report! Watchdog or a staff member will respond to it as soon as possible."
+alreadyReported: "&cYou already have an open report against &e%player%"
+notEnoughEvidence: "&c&lI couldn't find enough evidence, please open a report at our website!"
+
+# /wdr <player> <one hack> section
+successfulReportOneHack: "&aYou reported &e%player% &afor &e[%hack%]"
+broadcaseOneHack: "&c%reporter% &areported &c%player% &afor &e%hack%"
+broadcastOneHackBanned: "&c%player% &ahas been banned for &e%hack%"
+
+# /wdr <player> <two hacks> section
+successfulReportTwoHacks: "&aYou reported &e%player% &afor &e[%hack1%, %hack2%]"
+broadcastTwoHacks: "&c%reporter% &areported &c%player% &afor &e%hack1% &aand &e%hack2%"
+broadcastTwoHacksBanned: "&c%player% &ahas been banned for &e%hack1% &aand &e%hack2%"
+
+# /wdr <player> <three hacks> section
+successfulReportThreeHacks: "&aYou reported &e%player% &afor &e[%hack1%, %hack2%, %hack3%]"
+broadcastThreeHacks: "&c%reporter% &areported &c%player% &afor &e%hack1%&a, &e%hack2% &aand &e%hack3%"
+broadcastThreeHacksBanned: "&c%player% &ahas been banned for &e%hack1%&a, &e%hack2% &aand &e%hack3%"

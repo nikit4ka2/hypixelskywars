@@ -1,0 +1,5 @@
+parkour:
+  location: world, -0.500, 68.200, -14.500
+  lines:
+  - '&e&lParkour starts this way!'
+  - '&bGo ahead into the cave'

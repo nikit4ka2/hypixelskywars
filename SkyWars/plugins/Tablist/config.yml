@@ -1,0 +1,34 @@
+# Tablist v1.3.2.9 by sn1cko
+# Time is set in milliseconds which means every 20 = 1 second
+# for example: 6000 = 5 minuntes OR 300 = 15 seconds
+# 
+# The announcer will never stop if the time is set to 0
+# Else it will stop after the amount of milliseconds you wish
+# 
+# There are currently 15 variables available which can be built in
+# for example %player% - will display the playername or %health% - will give out the health
+# all other variables can be found on the website
+# https://dev.bukkit.org/projects/tablist/pages/variables
+# You can also add PlaceholderAPI to your server to get way more variables
+# Download-Link (with instructions):
+# https://www.spigotmc.org/resources/placeholderapi.6245/
+Tablist:
+  Settings:
+    Staff:
+      Permission: tablist.staff
+    ShowVanishedPlayerOnVariable:
+      Toggle: false
+      ChangeText:
+        Toggle: false
+        UsersSeeOnlineText: '%online%'
+        StaffsSeeOnlineText: '%online% | %vanished%'
+    CustomPrefix:
+      Toggle: false
+      Format: '%prefix% %player%'
+    Toggle: false
+    Time: 20
+    Messages:
+      Header:
+      - '&bYou are playing on &c&lMC.HYPIXEL.NET'
+      Footer:
+      - '&aRanks, Boosters & MORE! &c&lSTORE.HYPIXEL.NET'

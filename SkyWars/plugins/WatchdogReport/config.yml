@@ -1,0 +1,48 @@
+##############################################################################################################
+# +--------------------------------------------------------------------------------------------------------+ #
+# | __          __  _______ _____ _    _ _____   ____   _____   _____  ______ _____   ____  _____ _______  | #
+# | \ \        / /\|__   __/ ____| |  | |  __ \ / __ \ / ____| |  __ \|  ____|  __ \ / __ \|  __ \__   __| | #
+# |  \ \  /\  / /  \  | | | |    | |__| | |  | | |  | | |  __  | |__) | |__  | |__) | |  | | |__) | | |    | #
+# |   \ \/  \/ / /\ \ | | | |    |  __  | |  | | |  | | | |_ | |  _  /|  __| |  ___/| |  | |  _  /  | |    | #
+# |    \  /\  / ____ \| | | |____| |  | | |__| | |__| | |__| | | | \ \| |____| |    | |__| | | \ \  | |    | #
+# |     \/  \/_/    \_\_|  \_____|_|  |_|_____/ \____/ \_____| |_|  \_\______|_|     \____/|_|  \_\ |_|    | #
+# |                                                                                                        | #
+# +--------------------------------------------------------------------------------------------------------+ #
+##############################################################################################################
+
+# Here you put the sensitivity options for each check
+banOnVL:
+  KillAura: 25
+  AntiKnockback: 15
+  Fly: 250
+  AutoClicker: 50
+  Speed: 250
+  Reach: 25
+
+# Custom report command :D
+# Make sure you leave the preceding slash off
+customReportCommand: "report"
+
+# If a player has a higher ping than this don't ban them
+maximumPing: 200
+
+# If server TPS is lower then this, don't ban players
+minimumTPS: 17
+
+# Kick thingy
+kick:
+    # Should we enable kicking?
+    enabled: true
+    
+    # What command should be run as a kick?
+    kickCommand: "kick %player% &fInternal exception: io.netty.handler.timeout.readTimeoutexception"
+
+# What command to run if /wdr finds a player hacking
+banCommand: "ban %player% &fWATCHDOG CHEAT DETECTION &7&o[CR-216110]"
+
+# Duration between each VL check  (in ticks)
+# 20 ticks = 1 second
+tickDelay: 100
+
+# Check player this many times
+checkPlayer: 24

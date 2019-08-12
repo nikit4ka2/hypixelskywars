@@ -1,0 +1,14 @@
+groups:
+  Member:
+    options:
+      rank: '1000'
+      prefix: '&7'
+      default: true
+schema-version: 1
+users:
+  5b975c91-b95a-4f2c-b4b8-79deaf0457ff:
+    options:
+      prefix: '&7'
+      name: ZerosGamersYT
+    permissions:
+    - tag.mvp

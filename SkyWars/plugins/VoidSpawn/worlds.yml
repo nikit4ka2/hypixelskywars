@@ -1,0 +1,10 @@
+version: 1
+world:
+  spawn:
+    x: -1.5
+    y: 67.0
+    z: 0.5
+    pitch: -2.191062
+    yaw: 269.92667
+    world: world
+  mode: spawn
