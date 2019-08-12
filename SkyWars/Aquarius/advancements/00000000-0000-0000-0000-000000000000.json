@@ -1,0 +1,20 @@
+{
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2019-01-27 16:07:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2019-01-27 16:07:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "jungle": "2019-01-27 16:07:20 +0300"
+    },
+    "done": false
+  }
+}
