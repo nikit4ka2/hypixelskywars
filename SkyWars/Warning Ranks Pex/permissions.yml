@@ -1,0 +1,55 @@
+groups:
+  Member:
+    permissions:
+    - tag.member
+    options:
+      rank: '1000'
+      prefix: '&7 '
+      default: true
+  VIP:
+    permissions:
+    - tag.vip
+    options:
+      rank: '6501'
+      prefix: '&a[VIP] '
+    inheritance:
+    - Member
+  VIP+:
+    permissions:
+    - tag.vip+
+    options:
+      rank: '650'
+      prefix: '&a[VIP&6+&a] '
+    inheritance:
+    - Member
+  MVP:
+    inheritance:
+    - Member
+    permissions:
+    - tag.mvp
+    options:
+      rank: '651'
+      prefix: '&b[MVP] '
+  MVP+:
+    inheritance:
+    - Member
+    permissions:
+    - tag.mvp+
+    options:
+      rank: '600'
+      prefix: '&b[MVP&c+&b] '
+  Master:
+    inheritance:
+    - Member
+    permissions:
+    - '*'
+    options:
+      rank: '700'
+      prefix: '&c[MASTER] '
+schema-version: 1
+users:
+  5b975c91-b95a-4f2c-b4b8-79deaf0457ff:
+    group:
+    - Master
+    options:
+      name: ZerosGamersYT
