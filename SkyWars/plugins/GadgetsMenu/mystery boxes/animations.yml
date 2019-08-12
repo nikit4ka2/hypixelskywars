@@ -1,0 +1,17 @@
+Animations:
+  None:
+    Name: '&aAnimation: None'
+    Material: '166:0'
+    Enabled: true
+    Mini-Block:
+      Material: '130:0'
+    Lore:
+    - ''
+  Normal:
+    Name: '&aAnimation: Normal'
+    Material: '130:0'
+    Enabled: true
+    Mini-Block:
+      Material: '130:0'
+    Lore:
+    - ''

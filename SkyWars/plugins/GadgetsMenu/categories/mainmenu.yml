@@ -1,0 +1,70 @@
+MainMenu:
+  Hats:
+    Name: '&eHats'
+    Material: '310:0'
+    Lore:
+    - '&7Collect all the hats and'
+    - '&7wear them while in a lobby.'
+  Particles:
+    Name: '&eParticles'
+    Material: '377:0'
+    Lore:
+    - '&7Make particles around you'
+    - '&7while standing in lobbies'
+    - '&7using these cool particle'
+    - '&7effects!'
+  Suits:
+    Name: '&eSuits'
+    Material: '316:0'
+    Lore:
+    - '&7Collect and wear all the'
+    - '&7pieces from a specific suit'
+    - '&7to gain unique effects!'
+  Gadgets:
+    Name: '&eGadgets'
+    Material: '33:0'
+    Lore:
+    - '&7These fun little toys'
+    - '&7can be used while'
+    - '&7in a lobby.'
+  Pets:
+    Name: '&ePets'
+    Material: '352:0'
+    Lore:
+    - '&7Unlock these pets to have'
+    - '&7them follow you around in'
+    - '&7lobbies!'
+  Morphs:
+    Name: '&eMorphs'
+    Material: '397:2'
+    Lore:
+    - '&7The ultimate transformation!'
+    - '&7Using these in lobbies'
+    - '&7will make you transform'
+    - '&7into a monster and unlock'
+    - '&7unique powers for everyone'
+    - '&7else to see!'
+  Banners:
+    Name: '&eBanners'
+    Material: '1217:0'
+    Lore:
+    - '&7Unlock all the Banners and'
+    - '&7wear them as hats while in'
+    - '&7in a lobby!'
+  Emotes:
+    Name: '&eEmotes'
+    Material: '1217:1'
+    Lore:
+    - '&7Express yourself! Show the'
+    - '&7world how you''re feeling'
+    - '&7with these unique animated'
+    - '&7Emotes.'
+  Cloaks:
+    Name: '&eCloaks'
+    Material: '116:0'
+    Lore:
+    - '&7Made of particles, there'
+    - '&7cloaks provide ultimate'
+    - '&7swag. To activate them,'
+    - '&7stand still for 1 second'
+    - '&7while in a lobby.'

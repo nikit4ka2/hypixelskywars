@@ -1,0 +1,232 @@
+Particles:
+  Water Splash:
+    Name: '&aWater Splash Particle'
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Water'
+    - '&7Splash particles around'
+    - '&7you in lobby.'
+  Drip Water:
+    Name: '&9Drip Water Particle'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Drip'
+    - '&7Water particles around'
+    - '&7you in lobby.'
+  Drip Lava:
+    Name: '&9Drip Lava Particle'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Drip'
+    - '&7Lava particles around'
+    - '&7you in lobby.'
+  Crit:
+    Name: '&9Crit Particle'
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Crit'
+    - '&7particles around you'
+    - '&7in lobby.'
+  Magic Crit:
+    Name: '&9Magic Crit Particle'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Magic'
+    - '&7Crit particles around'
+    - '&7you in lobby.'
+  Spell:
+    Name: '&5Spell Particle'
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Spell'
+    - '&7particles around you'
+    - '&7in lobby.'
+  Instant Spell:
+    Name: '&5Instant Spell Particle'
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Instant'
+    - '&7Spell particles around'
+    - '&7you in lobby.'
+  Mob Spell:
+    Name: '&5Mob Spell Particle'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Mob'
+    - '&7Spell particles around'
+    - '&7you in lobby.'
+  Witch Spell:
+    Name: '&6Witch Spell Particle'
+    Mystery Dust: 40
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Witch'
+    - '&7Spell particles around'
+    - '&7you in lobby.'
+  Angry Villager:
+    Name: '&5Angry Villager Particle'
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Angry'
+    - '&7Villager particles around'
+    - '&7you in lobby.'
+  Happy Villager:
+    Name: '&5Happy Villager Particle'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Happy'
+    - '&7Villager particles around'
+    - '&7you in lobby.'
+  Town Aura:
+    Name: '&aTown Aura Particle'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Town'
+    - '&7Aura particles around'
+    - '&7you in lobby.'
+  Note:
+    Name: '&5Note Particle'
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Note'
+    - '&7particles around you'
+    - '&7in lobby.'
+  Portal:
+    Name: '&aPortal Particle'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Portal'
+    - '&7particles around you'
+    - '&7in lobby.'
+  Enchantment Table:
+    Name: '&9Enchantment Table Particle'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Enchantment'
+    - '&7Table particles around'
+    - '&7you in lobby.'
+  Flame:
+    Name: '&aFlame Particle'
+    Mystery Dust: 45
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Flame'
+    - '&7particles around you'
+    - '&7in lobby.'
+  Redstone:
+    Name: '&aRedstone Particle'
+    Mystery Dust: 48
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Redstone'
+    - '&7particles around you'
+    - '&7in lobby.'
+  Heart:
+    Name: '&9Heart Particle'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Heart'
+    - '&7particles around you'
+    - '&7in lobby.'
+  Fireworks Spark:
+    Name: '&6Fireworks Spark Particle'
+    Mystery Dust: 52
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Fireworks'
+    - '&7Spark particles around'
+    - '&7you in lobby.'
+  Smoke:
+    Name: '&aSmoke Particle'
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom Smoke'
+    - '&7particles around you'
+    - '&7in lobby.'
+  Slime:
+    Name: '&aSlime Particle'
+    Mystery Dust: 22
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Display a custom slime'
+    - '&7particles around you'
+    - '&7in lobby.'
